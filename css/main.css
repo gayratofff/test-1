@@ -1,0 +1,48 @@
+@import url(./fonts.css);
+
+:root {
+    --primary-color: #FF7500;
+    --white: #fff;
+    --roboto: "Roboto";
+    --robotoCondensed: "RobotoCondensed";
+}
+
+body {
+    font-family: var(--roboto);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+} 
+
+ul {
+    list-style: none;
+}
+
+.all-btn {
+    padding: 12px 24px;
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: var(--white);
+    text-align: center;
+    display: inline-block;
+    letter-spacing: .5px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: var(--roboto);
+    transition: .5s;
+
+}
+
+.all-btn:hover {
+    opacity: 0.8;
+}
+.all-btn:active {
+    opacity: 0.6;
+}
